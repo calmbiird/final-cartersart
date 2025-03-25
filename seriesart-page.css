@@ -1,0 +1,200 @@
+
+
+/* Home Button */
+.div-1 {
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+}
+
+.div-2 {
+  background-color: rgb(255, 255, 255);
+  flex: 2;
+  text-align: center;
+}
+
+.logo {
+  width: 70%;
+}
+
+.bigdiv {
+  text-align: center;
+  margin: 2%;
+}
+
+.home-button {
+  border: none;
+  outline: none;
+  width: 70%;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.home-button:hover {
+  opacity: 0.8;
+}
+
+.home-button:active {
+  opacity: 0.9;
+}
+
+/* Scuffed Seperation */
+.container-2 {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: underline;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 1vw;
+  margin-bottom: 3%;
+  color:rgb(255, 205, 125)
+}
+
+.container-2 a{
+  color:rgb(247, 161, 255)
+}
+
+.container-2 a:hover{
+  color:rgb(125, 201, 255)
+}
+
+/* Series Title Card */
+.series-container{
+  background-color: rgb(228, 228, 228);
+  padding: 5%;
+  text-align: center;
+  font-size: 4vw;
+  font-family: "Rock Salt";
+  color: white;
+  text-shadow: 0.5vw 0.5vw rgb(146, 163, 171);
+  border-radius: 10vw;
+}
+
+.series-below {
+  background-color: rgb(228, 228, 228);
+  font-size: 1vw;
+  font-style: italic;
+  text-decoration: underline;
+  font-family: Arial;
+  padding-bottom: 3%;
+  color: black;
+  text-shadow: none;
+}
+
+.series-title:hover {
+  opacity: 0.7;
+}
+
+.container {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+}
+
+.arrow-div {
+  text-align: center;
+}
+
+.art-text {
+  background-color: rgb(255, 255, 255);
+  flex: 2;
+  font-size: 3vw;
+  text-align: center;
+  font-family: "Rock Salt";
+  color: rgb(203, 39, 66);
+  padding-top: 2%;
+  font-style: italic;
+  padding-bottom: 1%;
+  margin-bottom: 3%;
+  letter-spacing: 30%;
+}
+
+.date-text {
+  font-size: 1.2vw;
+  text-align: center;
+  font-family: Arial;
+  color: rgb(120, 210, 255);
+  margin: 0;
+  letter-spacing: normal;
+  text-decoration: underline;
+  text-shadow: none;
+}
+
+/* Artwork Card */
+.artwork-image {
+  background-color: rgb(255, 255, 255);
+  padding: 1%;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.artwork-image img {
+  width: 60%;
+}
+
+.artwork-image video {
+  width: 60%;
+}
+
+.artwork-image audio {
+  width: 100%;
+}
+
+.artwork-image iframe {
+  width: 60%;
+}
+
+.image-prime {
+  background-color: rgb(255, 255, 255);
+  flex: 1.5;
+}
+
+.images-brighter {
+  background-color: rgb(255, 255, 255);
+  flex: 1.5;
+  filter: brightness(150%);
+}
+
+.statement {
+  border-radius: 2vw;
+  padding: 2%;
+  text-align: left;
+  flex: 2;
+  background-color: rgb(228, 228, 228);
+  font-size: 1.1vw;
+  margin-top: 3%;
+  font-family: Arial;
+}
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aboutme-artwork-image {
+  background-color: rgb(255, 255, 255);
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.aboutme-artwork-image img {
+  width: 100%;
+}
+
+.aboutme-statement {
+  border-radius: 2vw;
+  padding: 2%;
+  text-align: left;
+  flex: 2;
+  background-color: rgb(228, 228, 228);
+  margin-left: 3%;
+  font-size: 1.1vw;
+}
